@@ -12,6 +12,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 27px;
+  text-align: center;
 }
 
 a{
@@ -28,8 +29,6 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
-
-  text-align: center;
 }
 
 .welcome__section__title, .welcome__section__link{
@@ -55,4 +54,24 @@ a{
   border-radius: 10px;
 
   font-size: 18px;
+}
+
+.article__text {
+  padding: 20px;
+
+  background-color: #926239;
+  color: #fff;
+}
+
+.article__text-dif {
+  background-color: #fff;
+  color: #926239;
+}
+
+.article__bottom__section {
+  display: inline-block;
+
+  width: 33.33%;
+
+  text-align: left;
 }
