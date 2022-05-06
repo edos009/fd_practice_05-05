@@ -33,9 +33,13 @@ a{
 
 .welcome__section__title, .welcome__section__link{
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .welcome__section__title{
+  min-width: 320px;
+
   font-size: 50px;
   line-height: 60px;
 }
