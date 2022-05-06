@@ -23,7 +23,7 @@ a{
 
 .welcome__section{
   height: 100vh;
-  padding: 427px 0;
+  padding-top: 40vh;
 
   background-image: url(./../../assets/images/beach.jpg);
   background-repeat: no-repeat;
