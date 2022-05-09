@@ -38,7 +38,10 @@ a{
 }
 
 .welcome__section__title{
-  min-width: 320px;
+  max-width: 600px;
+  min-width: 230px;
+
+  margin: 0 auto;
 
   font-size: 50px;
   line-height: 60px;
@@ -54,6 +57,7 @@ a{
 .welcome__section__link{
   display: block;
   max-width: 150px;
+  min-width: 110px;
 
   padding: 10px 20px;
   border: 1px solid #926239;
