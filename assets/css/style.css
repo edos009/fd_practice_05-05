@@ -52,10 +52,13 @@ a{
 }
 
 .welcome__section__link{
-  display: inline-block;
+  display: block;
+  max-width: 150px;
+
   padding: 10px 20px;
   border: 1px solid #926239;
   border-radius: 10px;
+  margin: 0 auto;
 
   font-size: 18px;
 }
